@@ -1,11 +1,14 @@
 import { ArticlesList } from '../components/ArticlesList'
-import { Header } from '../components/Header'
 import { IArticles } from '../types/IArticles'
 
 export default function Home({ articles }: IArticles) {
   return (
     <>
-      <Header />
+      <div>
+        <h1 className="text-6xl font-bold">
+          Welcome To <span className="text-blue-600">WebDev Newz</span>
+        </h1>
+      </div>
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <ArticlesList articles={articles} />
       </main>

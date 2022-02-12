@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { Footer } from './Footer'
 import { Meta } from './Meta'
 
